@@ -4,7 +4,7 @@
 Ce projet implémente une technique de fusion d'images en utilisant la manipulation des bits des pixels pour cacher une image dans une autre. Le programme fonctionne en intégrant les bits les plus significatifs d'une image secrète dans les bits les moins significatifs d'une image visible.
 
 ## Fonctionnalités
-- Charge deux images (`image1.jpg` et `cecieestuneimage.jpg`)
+- Charge deux images (`image1.jpg` et `ceciestune2eimage.jpg`)
 - Convertit les pixels en représentation binaire
 - Manipule les bits des pixels pour encoder une image dans une autre
 - Génère une image fusionnée (`image_fusion.jpg`)
@@ -20,7 +20,7 @@ pip install pillow
 ## Utilisation
 Placez vos images dans le même dossier que le script et assurez-vous qu'elles sont nommées :
 - `image1.jpg` : l'image visible
-- `cecieestuneimage.jpg` : l'image cachée
+- `ceciestune2eimage.jpg` : l'image cachée
 
 Puis exécutez le script :
 ```bash
